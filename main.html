@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<title>Job space1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<link rel="stylesheet" href="link1.css">
+<link rel="stylesheet" href="link2.css">
+<link rel="stylesheet" href="link3.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position:right;
+ background-size: cover;
+  background-image: url("img2.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+	.button {
+	  border: none;
+	  color: white;
+	  padding: 16px 32px;
+ 	 text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+  background-color:#DCDCDC; 
+  color: black; 
+ border-radius:12px;
+ 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: grey;
+  color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+<!------------------------------------------------>
+.w3-container:after,.w3-container:before,.w3-panel:after,.w3-panel:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,
+.w3-cell-row:before,.w3-cell-row:after,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+
+
+<!--------------------------------------------buttononimage---------->
+.containerbuttononimage {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.containerbuttononimage img {
+  width: 100%;
+  height: auto;
+}
+
+.containerbuttononimage .btnbuttononimage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.123{text:#008CBA;}
+.containerbuttononimage .btnbuttononimage:hover {
+  background-color: black;
+}
+.curve{border-radius: 50%}
+</style>
+<body>
+<!-- --------------------------------------------Navbar (sit on top)-------------------------------------- -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+   <img src="logo.png" style="width:200px;height:60px;">
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+                 <input type="button" value="Sign In" class=" button button1" onclick="signinfun()">
+                 <input type="button" value="Register" class="button button1" onclick="registerfun()"> 
+                    <!--   2 -->
+    </div>
+<div>
+<!---------------------------------------------------------------------------------------------------------->
+<marquee  bgcolor="#ADD8E6" direction="right" behavior="scroll" width="100%">this text should be scrolled 
+most of comfortably<a href="https://www.primevideo.com/">prime</a> <img src="apple.png" height="20" widtth="50" ></img></marquee>
+<!------------------------------------------------------------------------------------------------------------->
+</div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  </div>
+</div>
+<!-- -----------------------------------------------------1Header with full-height image--------------- -->
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container <!--w3-grayscale-min"  for grey color on the first image--> id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+<span><p>                                       </p><br></span>
+    <span class="w3-jumbo w3-hide-small 123">"if oppurtunity</span><br>
+ <span class="w3-jumbo w3-hide-small 123">doesn't knock,</span><br>
+ <span class="w3-jumbo w3-hide-small 123">build a door."</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">@@@@@@@@@@@@@@@@@</span><br>
+    <span class="w3-large">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</span>
+  </div>
+</header>
+<!------------------------------------------------------------------------------------->
+<div class="w3-container">
+<h1> headiing</h1>
+<h1>heading2</h1>
+<h1>heading 3</h1>
+</div>
+<!-- -----------------------------------------job giver ---------------------- -->
+<div class="w3-container w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col m6 ">
+      <h3>start hiring from here</h3> 
+	
+	<input type="button" class="button button2" value="post your job" onclick="postjobfun()">  
+    </div>
+	 <div class="w3-col m6 ">
+	<img src="img1.jpg" class="curve" hight=500 width=500>
+  </div>
+</div>
+</div>
+<!------------------------------------4Skills Section---------------------------------------------- -->
+<div class="w3-container w3-padding-64">
+<div class="w3-col m6">
+  <h1>hello</h1>
+</div>
+<h1>heading 2</h1>
+<h2>heading</h2>  
+</div>
+
+
+<!-- -----------------------------------------job seeker ---------------------- -->
+<div class=" w3-container w3-light-grey" style="padding:"16px 16px">
+<div class="w3-col m6">
+<img src="needjob1.jpg" class="curve" height=300 width=300>
+</div> 
+<div>
+	<h1 style="color:#008CBA;"><b><strong><i>Your job is just one step away</i></strong></b></h1>
+	
+</div>
+<div>
+     <input type="button"  class="button button2" value="Post your resume" onclick="postresumefun()">
+</div>
+</div>
+<!-- --------------------------------------------------------------3company logo-------------------------- -->
+<div class="w3-container">
+  <h3 class="w3-center">Partnership with...</h3>
+  <div class="w3-row-padding" ><!-- space above-->
+    <div class="w3-col l3 m6">
+      <img src="apple.png" style="width:100%"  class="w3-hover-opacity " alt="apple" height="150" width="150">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="google.png" style="width:100%" class="w3-hover-opacity " alt="google" height="150" width="150">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="alibaba.png" style="width:100%" class="w3-hover-opacity " alt="Alibaba" height="150" width="150">
+    </div>
+    <div class="w3-col l3 m6">
+
+    <img src="pubg.png" style="width:100%" class="w3-hover-opacity" alt="pubg" height="150" width="150">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="oneplus.png" style="width:100%" class="w3-hover-opacity" alt="Oneplus" height="150" width="150">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="microsoft.png" style="width:100%" class="w3-hover-opacity" alt="Microsoft" height="150" width="150">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="hcl.png" style="width:100%"  class="w3-hover-opacity" alt="hcl" height="150" width="150">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="amazon.png" style="width:100%" class="w3-hover-opacity" alt="amazon" height="150" width="150">
+    </div>
+  </div>
+</div>
+<!-- ----------------------------------------feedback ---------------------- -->
+<div class="w3-container w3-light-grey" style="padding:16px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+<h3>Contact?</h3>
+Name:-<br>
+<input type="text" id="contactname" size="50"><br>
+Contact no:-<br>
+<input type="text" id="contactno" MAXLENGTH="10" pattern="[0-9]{10}"><br>
+<input type="checkbox" value="same">New user<input type="checkbox" value="same">Already a user
+Query:-<br>
+<textarea maxlength="200" rows="5" cols="150">
+Enter text here...
+</textarea><br>
+<input type="button" value="Feedback" class="button button1" onclick="feedback()">
+	
+  <!--    <p><a href="#work" class="w3-button w3-black">^^^^^^^^^^^^^^^</a></p>            goes down -->
+    </div>
+  </div>
+</div>
+
+<!-- -------------------------Modal for full size images on click--------------------------------->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×2222222222222</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+ 
+<script>
+
+function postresumefun()
+{
+window.open("signin.html");
+}
+function postjobfun()
+{
+window.open("signin.html");
+}
+function signinfun()
+{
+window.open("signin.html");
+}
+function registerfun()
+{
+window.open("registrationform.html");
+}
+
+
+<!-- 3 -------------------------------->
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
